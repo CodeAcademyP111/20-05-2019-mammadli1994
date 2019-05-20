@@ -1,0 +1,35 @@
+#tabs {
+    width: 600px;
+    margin: 0 auto;
+}
+
+#tabs ul {
+    margin: 20px 0;
+}
+
+#tabs ul li {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#tabs .contains {
+    width: 600px;
+    min-height: 150px;
+    box-sizing: border-box;
+    border: 1px solid;
+    padding: 50px;
+    display: none;
+}
+
+.active_contain {
+    display: block !important;
+}
+
+.active_menu {
+    background-color: green !important;
+}
