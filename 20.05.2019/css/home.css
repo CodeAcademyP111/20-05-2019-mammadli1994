@@ -1,0 +1,40 @@
+.accordion{
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+ 
+}
+
+.accordion .title{
+display: flex;
+justify-content: space-between;
+color:white;
+background-color: rgb(199, 173, 173);
+cursor: pointer;
+padding: 10px;
+transition: background-color 1s;
+border: 1px solid blueviolet
+}
+
+.accordion .content {
+box-sizing: border-box;
+ /* max-height: 0;
+overflow: hidden; */
+
+
+}
+
+.accordion .content p{
+    padding: 0 20px;
+   
+
+}
+
+.accordion .title:hover{
+    background-color: gray;
+}
+
+.active{
+    display: block !important;
+    display: none !important;
+}
